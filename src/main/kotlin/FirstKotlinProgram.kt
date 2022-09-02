@@ -5,7 +5,7 @@ fun main() {
     Filename: FirstKotlinProgram.kt
      */
     print("Eugene")
-    print(" Vaquez")
+    print(" Vasquez")
     println (" Santos")
     println ( "MD1P 2022")
     println ("The Pioneer")
