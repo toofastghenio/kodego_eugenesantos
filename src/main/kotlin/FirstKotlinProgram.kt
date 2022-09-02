@@ -4,11 +4,16 @@ fun main() {
     Date Created: September 1, 2022
     Filename: FirstKotlinProgram.kt
      */
-    print("Eugene")
-    print(" Vasquez")
-    println (" Santos")
-    println ( "MD1P 2022")
-    println ("The Pioneer")
+
+     println("Enter number 1:")
+     var number1 : Int = readln().toInt()
+
+    println("Enter number 2:")
+    var number2 : Int = readln().toInt()
+
+    var sum : Int = number1 + number2
+    println("The sum is $sum")
+
 
 
 
