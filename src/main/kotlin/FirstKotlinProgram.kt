@@ -6,7 +6,8 @@ fun main() {
      */
     print("Eugene")
     print(" Santos")
-    print (" Vasquez")
+    println (" Vasquez")
+    println ( "MD1P 2022")
 
 
 
