@@ -19,6 +19,6 @@ fun main(){
     //concatenate
     println(string1+"  "+string2)
     //substring
-    println(string1.substring(7,11))
+    println(string1.substring(7,12))
 
 }
