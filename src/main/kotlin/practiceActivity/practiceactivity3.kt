@@ -1,3 +1,4 @@
+package practiceActivity
 fun main () {
     var age: Int = 31
 
