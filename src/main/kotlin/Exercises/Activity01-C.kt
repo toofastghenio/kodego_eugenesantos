@@ -19,7 +19,7 @@ fun main (){
 
     //Food Stocks
     var foodStocks1 : Int = 150
-    var foodStocks2 : Int = 50
+    var foodStocks2 : Int = 200
     var foodStocks3 : Int = 300
 
     //Availability
@@ -32,9 +32,9 @@ fun main (){
     var amount2 : Double = foodPrice2 * foodStocks2
     var amount3 : Double = foodPrice3 * foodStocks3
 
-    println("The $foodCategory1 is worth $foodPrice1 pesos and the are $foodStocks1 pcs available.")
-    println("with total amount of $amount1 pesos.")
-    println(food1)
+    println("The $foodCategory2 is worth $foodPrice2 pesos and the are $foodStocks2 pcs available.")
+    println("with total amount of $amount2 pesos.")
+    println(food2)
 
 
 
