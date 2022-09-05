@@ -19,7 +19,7 @@ fun main (){
     // students attendance
     var student1attendance: Int = 100
     var student2attendance: Int = 90
-    var student3attendance: Int = 74
+    var student3attendance: Int = 75
 
     println("Hello, $man $student1! Your grade is $student1Grade")
     println("Hello, $woman $student2! Your grade is $student2Grade")
