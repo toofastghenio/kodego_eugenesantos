@@ -11,7 +11,7 @@ fun main (){
 
     println("The book $book1 is $status2")
     println("The book $book2 is $status1")
-    println("The book $book3 is $status1")
+    println("The book $book3 is $status2")
 
 
 
