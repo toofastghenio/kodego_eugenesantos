@@ -1,45 +1,57 @@
 package practice_activities
 
 fun main(){
-    //product information
-    var productName : String = "Modem Router"
-    var price : Double = 14500.50
+    println()
+
+    println("Enter product:")
+    var itemName : String = readln()
+
+    println("Enter price:")
+    var item1Price = readln().toDouble()
+    println("Price of the $itemName is $item1Price")
 
 
     //discount computation
-    var discount20 : Double = (price) * .20
-    var discount15 : Double = (price) * .15
-    var discount10 : Double = (price) * .10
-    var discount5 : Double = (price) * .05
-    var discount0 : Double = (price) * 1
+    var lessFormula1: Double =(item1Price* 0.0)
+    var lessFormula2: Double =(item1Price*0.05)
+    var lessFormula3: Double =(item1Price*0.10)
+    var lessFormula4: Double =(item1Price*0.15)
+    var lessFormula5: Double =(item1Price*0.20)
 
-    //Net Price
-    var netPrice : Double = price - discount5
+    //net price computation
+    var netPrice1: Double =(item1Price*0.0)
+    var netPrice2: Double =(item1Price*0.95)
+    var netPrice3: Double =(item1Price*0.90)
+    var netPrice4: Double =(item1Price*0.85)
+    var netPrice5: Double =(item1Price*0.80)
 
-
-    println("Product Name: $productName")
-    println("SRP of Modem Router: $price")
-
-    //Discount Range
-    if(price > 100000){
-        println("Discount: $discount20")
-        println("20% Discount")
-    }else if((price <= 99999)&&(price >= 50001)){
-        println("Discount: $discount15")
-        println("15% Discount")
-    }else if((price <= 500000)&&(price >=20001)){
-        println("Disount: $discount10")
-        println("10% Discount")
-    }else if((price <= 20000)&&(price >= 10001)){
-        println("Discount: $discount5")
-        println("5% Discount")
-    }else if((price <= 10000)&&(price >=0)) {
-        println("Discount: $discount0")
-        println("0% Discount")
+    if((item1Price >= 0)&&(item1Price <= 10000)){
+        println("Discount is $lessFormula1")
+    }else if((item1Price >=10001)&&(item1Price <=20000)){
+        println("Discount is $lessFormula2")
+    }else if ((item1Price >=20001)&&(item1Price <=50000)){
+        println("Discount is $lessFormula3")
+    }else if ((item1Price >=50001)&&(item1Price <=100000)){
+        println("Discount is $lessFormula4")
+    }else if ((item1Price > 100000)){
+        println("Discount is $lessFormula5")
     }else{
-        println("Invalid Amount")
+        println("Invalid price!")
     }
 
-    println("Net price: $netPrice")
+    if((item1Price >= 0)&&(item1Price <= 10000)){
+        println("Net Price is $netPrice1")
+    }else if((item1Price >=10001)&&(item1Price <=20000)){
+        println("Net Price is $netPrice2")
+    }else if ((item1Price >=20001)&&(item1Price <=50000)){
+        println("Net Price is $netPrice3")
+    }else if ((item1Price >=50001)&&(item1Price <=100000)){
+        println("Net Price is $netPrice4")
+    }else if ((item1Price > 100000)){
+        println("Net Price is $netPrice5")
+    }else{
+        println("Invalid price!")
+    }
+
 
 }
