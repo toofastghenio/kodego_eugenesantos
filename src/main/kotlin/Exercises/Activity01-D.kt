@@ -3,38 +3,40 @@ package exercises
 //After the input is done, the user will be asked “Divide the value by how many?”. It will only accept an Integer as input.
 //The total of the first input will be divided by the second input.
 //Note: Error checking must be done.
+
 fun main(){
+
     //Start of the program
-    println("Enter the Amount")
-    var amount1 : Double = readln().toDouble()
+    println("Please Enter Currency")
+    var currency1 : Int = readln().toInt()
 
 
     //Will the client add any amount?
-    if ((amount1 >=1) && (amount1 <= 1000000000000)){
-        println("You have entered the amount of $amount1.")
+    if ((currency1 >=1) && (currency1 <= 1000000)){
+        println("The Currency you entered is $currency1.")
     }
-    println("Do you need to add another amount? Please select either YES or NO")
-    var amount2: String = readln().toString()
+    println("Do you want to add another currency? Kindly choose YES or NO")
+    var currency2: String = readln().toString()
 
     //The client will add amount
-    if(amount2 == "YES") {
-        println("Please enter your requested additional amount.")
-        var amount3 : Double = readln().toDouble()
-        var totalAmount1 : Double = amount1 + amount3
-        println("The total amount you enter is $totalAmount1")
+    if(currency2 == "YES") {
+        println("Please enter additional currency.")
+        var currency3 : Int = readln().toInt()
+        var totalCurrency1 : Int = currency1 + currency3
+        println("The total amount you enter is $totalCurrency1")
         println("Divide the value by how many?")
         var divisor1 : Int = readln().toInt()
-        var grandTotal1 : Double = totalAmount1 / divisor1
-        println("Your total amount is $grandTotal1")
+        var grandCurrency1 : Int = totalCurrency1 / divisor1
+        println("Your total currency is $grandCurrency1")
 
         //The client will NOT add amount
-    }else if(amount2 == "NO"){
-        println("Divide the value by how many?")
+    }else if(currency2 == "NO"){
+        println("Divide the currency by how many?")
         var divisor2 : Int = readln().toInt()
-        var grandTotal2 : Double = amount1 / divisor2
-        println("Your total amount is $grandTotal2")
+        var grandCurrency2 : Int = currency1 / divisor2
+        println("Your total amount is $grandCurrency2")
     }
 
-    println("Thank you so much for your withdrawal. We hope to business with you always.")
+    println("Thank you so much for your withdrawal. We hope you will withdraw again.")
 
 }
