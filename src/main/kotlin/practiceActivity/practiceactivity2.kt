@@ -1,5 +1,14 @@
 package practiceActivity
-
+//Practice Activity 2
+//Create a Kotlin program that will accept grades, then calculates and display their average grade.
+//Sample Output
+//Enter Grade in Math:
+//78
+//Enter  Grade in English:
+//81
+//Enter  Grade in Filipino:
+//98
+//Average Grade is: 85.66
 
 fun main (){
     println("Enter grade in Math:")
