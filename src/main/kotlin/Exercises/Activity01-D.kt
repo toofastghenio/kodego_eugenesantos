@@ -6,19 +6,17 @@ package exercises
 
 fun main(){
 
-    //Start of the program
     println("Please Enter Currency")
     var currency1 : Int = readln().toInt()
 
-
-    //Will the client add any amount?
+    //Customer will add any amount?
     if ((currency1 >=1) && (currency1 <= 1000000)){
         println("The Currency you entered is $currency1.")
     }
     println("Do you want to add another currency? Kindly choose YES or NO")
     var currency2: String = readln().toString()
 
-    //The client will add amount
+    //Customer want to add amount
     if(currency2 == "YES") {
         println("Please enter additional currency.")
         var currency3 : Int = readln().toInt()
@@ -29,7 +27,7 @@ fun main(){
         var grandCurrency1 : Int = totalCurrency1 / divisor1
         println("Your total currency is $grandCurrency1")
 
-        //The client will NOT add amount
+        //Customer do not want to add amount
     }else if(currency2 == "NO"){
         println("Divide the currency by how many?")
         var divisor2 : Int = readln().toInt()
