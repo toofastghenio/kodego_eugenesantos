@@ -2,7 +2,7 @@ package exercises
 //Activity 01 - F
 //Create an application that will accept 1 string. Your application will print “Palindrome” if the string is a palindrome.
 fun main(args: Array<String>) {
-    var num = 1001001
+    var num = 363
     var reversedInteger = 0
     var remainder: Int
     val originalInteger: Int
@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
         num /= 10
     }
 
-    // palindrome if orignalInteger and reversedInteger are equal
+    // palindrome if originalInteger and reversedInteger are equal
     if (originalInteger == reversedInteger)
         println("$originalInteger is a palindrome.")
     else
