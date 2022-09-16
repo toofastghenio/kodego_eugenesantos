@@ -1,21 +1,31 @@
-fun main (){
-    val samsungPhone = MobilePhone()
-    println("Device name is: ${samsungPhone.name}")
-    samsungPhone.turnOn()
-    samsungPhone.turnOff()
+    fun main() {
 
-}
-class MobilePhone{
-    val name = "Samsung A52"
-    val category = "Entertainment"
-    var deviceStatus = "online"
+        var mobilePhone = MyMobilePhone ("Huawei","Y7Pro",32,5.5,3)
 
-    fun turnOn(){
-        println("Mobile Phone is turned on.")
+        var mobile = MyMobilePhone("Huawei")
+
     }
-    fun turnOff(){
-        println("Mobile Phone is turned off.")
-}
 
-}
+    class MyMobilePhone(var brand: String, var modelName: String, var rom: Int, var screenSize: Double, var ram: Int) {
 
+        init {
+            println("Object Created!")
+            println("******************")
+            println()
+            println("The Brand is $brand")
+            println("The Model Name is $modelName")
+            println("The Capacity Rom is $rom GB")
+            println("The Screen Size is $screenSize inches")
+            println("The Memory Ram is $ram GB")
+        }
+        //secondary constructor 1
+
+        constructor(brand: String) : this(brand, "Y7Pro", 32, 5.5, 3) {
+
+
+        }
+
+
+
+
+    }

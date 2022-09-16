@@ -1,44 +1,31 @@
 package exercises
-//Activity 01 - I
-//Using Activity 01 - C and implement a process where items are added to the grocery.
+fun main() {
+    //Using Activity 01 - C and implement a process where items are added to the grocery.
 
-fun main (){
-    //Food Products
-    var foodCategory1 : String = "Dry Goods"
-    var foodCategory2 : String = "Wet Goods"
-    var foodCategory3 : String = "Dairy Goods"
-
-    //Food Type
-    var foodType1 : String = "Canned Goods"
-    var foodType2 : String = "Meat Products"
-    var foodType3 : String = "Milk"
-
-    //Food Price
-    var foodPrice1 : Double = 20.00
-    var foodPrice2 : Double = 320.00
-    var foodPrice3 : Double = 120.00
-
-    //Food Stocks
-    var foodStocks1 : Int = 150
-    var foodStocks2 : Int = 200
-    var foodStocks3 : Int = 300
-
-    //Availability
-    var food1 : Boolean = foodStocks1 > 0
-    var food2 : Boolean = foodStocks2 > 0
-    var food3 : Boolean = foodStocks3 > 0
-
-    //total amounts
-    var amount1 : Double = foodPrice1 * foodStocks1
-    var amount2 : Double = foodPrice2 * foodStocks2
-    var amount3 : Double = foodPrice3 * foodStocks3
-
-    println("The $foodCategory2 is worth $foodPrice2 pesos and the are $foodStocks2 pcs available.")
-    println("with total amount of $amount2 pesos.")
-    println(food2)
+    var items = "Confectionary, Vegetables and Cereals"
+    var confectionaryitems =
+        "Chocolates, Gums, Jellies, Hard Candy, Soft Candy, Cakes"
+    var vegetablesitems =
+        "Tomatoes, Potatoes,Spinach,Onions, Garlic, Eggplants"
+    var cerealitems = "Corn Flakes, Bran, Granola, Rice Crispies, Oatmeal"
 
 
+    println("Below are the list of available items")
+    println("List of Items:")
+    println("$items")
+    println()
+    var itemsNumber: Int = 2
+    when (itemsNumber) {
+        1 -> println("Confectionary Items available stocks: $confectionaryitems")
+        2 -> println("Vegetables Items available stocks: $vegetablesitems")
+        3 -> println("Cereals Items available stocks: $cerealitems")
 
-
-
+    }
+    var addeditem = ArrayList<String>()
+    print("Added Item: ")
+    addeditem.add("Lollipops")
+    addeditem.add("Candy Cane")
+    for(value in addeditem){
+        print(" $value ")
+    }
 }

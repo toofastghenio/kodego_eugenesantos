@@ -4,38 +4,38 @@ package exerciseActivity
 
 fun main (){
     //Food Products
-    var foodCategory1 : String = "Dry Goods"
-    var foodCategory2 : String = "Wet Goods"
-    var foodCategory3 : String = "Dairy Goods"
+    var categoryOfFood1 : String = "Confectionary"
+    var categoryOfFood2 : String = "Vegetables"
+    var categoryOfFood3 : String = "Cereal"
 
     //Food Type
-    var foodType1 : String = "Canned Goods"
-    var foodType2 : String = "Meat Products"
-    var foodType3 : String = "Milk"
+    var typeOfFood1 : String = "Muscavado"
+    var typeOfFood2 : String = "Tomato"
+    var typeOfFood3 : String = "Corn Flakes"
 
     //Food Price
-    var foodPrice1 : Double = 20.00
-    var foodPrice2 : Double = 320.00
-    var foodPrice3 : Double = 120.00
+    var priceOfFood1 : Double = 150.00
+    var priceOfFood2 : Double = 80.00
+    var priceOfFood3 : Double = 130.00
 
     //Food Stocks
-    var foodStocks1 : Int = 150
-    var foodStocks2 : Int = 200
-    var foodStocks3 : Int = 300
+    var stocksofFood1 : Int = 500
+    var stocksofFood2 : Int = 800
+    var stocksofFood3 : Int = 1200
 
     //Availability
-    var food1 : Boolean = foodStocks1 > 0
-    var food2 : Boolean = foodStocks2 > 0
-    var food3 : Boolean = foodStocks3 > 0
+    var item1 : Boolean = stocksofFood1 > 0
+    var item2 : Boolean = stocksofFood2 > 0
+    var item3 : Boolean = stocksofFood3 > 0
 
     //total amounts
-    var amount1 : Double = foodPrice1 * foodStocks1
-    var amount2 : Double = foodPrice2 * foodStocks2
-    var amount3 : Double = foodPrice3 * foodStocks3
+    var amount1 : Double = priceOfFood1 * stocksofFood1
+    var amount2 : Double = priceOfFood2 * stocksofFood2
+    var amount3 : Double = priceOfFood3 * stocksofFood3
 
-    println("The $foodCategory2 is worth $foodPrice2 pesos and the are $foodStocks2 pcs available.")
+    println("The $categoryOfFood2 is worth $priceOfFood2 pesos and the are $stocksofFood2 pcs available.")
     println("with total amount of $amount2 pesos.")
-    println(food2)
+    println(item2)
 
 
 
