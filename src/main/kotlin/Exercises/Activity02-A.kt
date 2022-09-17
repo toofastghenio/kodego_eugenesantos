@@ -1,7 +1,7 @@
 package Exercises
 
 fun main() {
-    var bsCivilEngStudents = arrayOf("Cardo Dalisay", "Eugene Santos", "Narda Darna")
+    var bsCivilEngStudents = arrayOf("Cardo Dalisay", "Eugene Santos", "Narda Custodio")
     var bsChemicalEngStudents = arrayOf("Dalisay Cardo", "Jimmy Santos", "Vic Sotto")
     var bsMechanicalEngStudents = arrayOf("Marc Pingris", "Rendon Labador", "Calvin Abueva")
     var bsChemicalEngStudents1info: String = "Enrolled SY: 2022-2023, Birthdate: January 29, 1982"
