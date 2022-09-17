@@ -2,10 +2,11 @@
 
         var mobilePhone = MyMobilePhone ("Huawei","Y7Pro",32,5.5,3)
 
-        var mobile = MyMobilePhone("Huawei")
+        var mobilePhone2 = MyMobilePhone("Samsung","A51s",64,6.0,4)
+
+        var mobilePhone3 = MyMobilePhone("Oppo","A01",128,6.5,6)
 
     }
-
     class MyMobilePhone(var brand: String, var modelName: String, var rom: Int, var screenSize: Double, var ram: Int) {
 
         init {
@@ -20,12 +21,7 @@
         }
         //secondary constructor 1
 
-        constructor(brand: String) : this(brand, "Y7Pro", 32, 5.5, 3) {
-
-
-        }
-
-
+    constructor(brand: String) : this(brand, "Y7Pro", 32, 5.5, 3)
 
 
     }
