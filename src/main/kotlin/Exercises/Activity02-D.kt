@@ -1,3 +1,4 @@
+package Exercises
 // I created one class that stores the data of a student : name , age and rank
 // This class holds one constructor and getter/setter only for three elements.
 data class Student(val name: String , val age: Int, var rank: Int)
@@ -7,11 +8,11 @@ fun main(args: Array<String>) {
     println("student1 name : ${student1.name} , age : ${student1.age} , rank : ${student1.rank}")
     println()
 
-    val student2 = student1.copy(name = "Eugene Santos", 40, 1)
+    val student2 = Student(name = "Eugene Santos", 40, 1)
     println("student2 name : ${student2.name} , age : ${student2.age} , rank : ${student2.rank}")
     println()
 
-    val student3 = student1.copy(name = "Narda Custodio", 18, 2)
+    val student3 = Student(name = "Narda Custodio", 18, 2)
     println("student3 name : ${student3.name} , age : ${student3.age} , rank : ${student3.rank}")
     println()
 
@@ -35,10 +36,10 @@ fun main(args: Array<String>) {
     println("current rank : ${student1.rank}")
     println()
 
-    //Declaring properties in the Class body  I created one data class with three parameters in the constructor.
+    //Declaring properties in the Class body
+    // I created one data class with three parameters in the constructor.
     //We can have one property in the constructor and declaring the other two inside the class.
     data class Student(val name: String){
-        val age: Int = 10
         var rank: Int = 0
     }
 
