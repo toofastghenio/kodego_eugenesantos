@@ -29,7 +29,6 @@ checkBalance() // Display current load, if zero, display "Check operator service
 call(minutes) // 8 load per minute, will not push through if no sufficient load
  */
 
-
 fun main() {
 
     var textMessage : String = ("")
