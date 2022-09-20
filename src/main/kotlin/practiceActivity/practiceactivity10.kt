@@ -1,9 +1,10 @@
+package practice_activities
 //Create a class called SmartPhone
 //
 //attributes(use proper data types):
 //load
 //batteryPercentage
-//(you can add your ow attributes)
+//(you can add your own attributes)
 //
 //functions:
 //buyLoad(amount) // does not accept 0 or negative values
@@ -11,122 +12,151 @@
 //sendText(message) //display message sent, load will decrement
 //checkBalance() // display current load, if zero, display "Check operator services"
 //call(minutes) //8 load per minute,  will not push through if no sufficient load
-package practice_activities
+
+/*
+Create a class called SmartPhone
+
+attributes (use proper data types)
+load
+batteryCapacity
+(you add your own)
+
+functions:
+buyLoad(amount) // Does not accept 0 or negative values
+chargeBattery(percent) // Does not accept 0 or negative values, should not exceed 100%
+sendTextMessage(message) // Display sent message, load wil decrement
+checkBalance() // Display current load, if zero, display "Check operator services"
+call(minutes) // 8 load per minute, will not push through if no sufficient load
+ */
 
 
-fun main(){
+fun main() {
 
-    var smartphone = SmartPhone()
-    var smartfeatures = arrayListOf("Credit Wallet", "Battery Percentage", "Load Info","Phone number")
-    var smartfunctions = arrayListOf("Buy Credits", "Status of Battery", "Credit Checker", "Call")
+    var textMessage : String = ("")
+    var smartPhone = SmartPhone(20.0,50)
 
-    println("Select Phone Features:")
-    println("*****************************")
-    println(smartfeatures)
-    println()
+    var option: Int = 1
 
-    println("Select Phone Functions:")
-    println("*****************************")
-    println(smartfunctions)
-    println()
 
-    print("Choose Category:")
-    var chosencategory = readln()
-    if (chosencategory == smartfeatures[0]){
-        smartphone.BalanceCredit()
-    }
+    while (option > 0) {
+        println("******************************")
+        println("What do you want do?")
+        println("[1] Check Load")
+        println("[2] Buy Load")
+        println("[3] Check Battery")
+        println("[4] Charge Battery")
+        println("[5] Send a Message")
+        println("[6] Call a Friend")
+        println("[0] Exit System")
+        println("******************************")
+        print("Option: ")
+        var input: String = readln()
 
-    else if (chosencategory == smartfeatures[1]){
-        println("Your Battery is ${smartphone.spPercentageOfBattery}%")
-    }
-    else if (chosencategory == smartfeatures[2]){
-        println("Your Remaining Load is ${smartphone.creditamount}")
-    }
-    else if (chosencategory == smartfeatures[3]){
-        println("Please enter your Phone Number ${smartphone.dialNumber}")
-    }
+        if (input.checkIntOrString() == "false") {
 
-    else if (chosencategory == smartfunctions[0]){
-        smartphone.BalanceCredit()
-    }
+            println("Invalid Option!")
 
-    else if (chosencategory == smartfunctions[1]){
-        smartphone.ChargeBattery()
-    }
+        } else if (input.checkIntOrString() == "true") {
 
-    else if (chosencategory == smartfunctions[2]){
-        smartphone.BalanceCredit()
-    }
+            option = input.toInt()
 
-    else if (chosencategory == smartfunctions[3]){
-        smartphone.Call()
+            if (option == 1) { // Check Load
+                smartPhone.checkBalance()
+            } else if (option == 2) { // Buy Load
+                print("How much load to buy?: ")
+                smartPhone.buyLoad(readln().toInt())
+            } else if (option == 3) { // Check Battery
+                println("Your battery percentage is ${smartPhone.batteryPercentage}%")
+            } else if (option == 4) { // Charge Battery
+                if (smartPhone.batteryPercentage == 100) {
+                    println("Battery is already full!")
+                } else {
+                    print("How much charged to battery?: ")
+                    smartPhone.chargeBattery(readln().toInt())
+                }
+            } else if (option == 5) { // Send SMS
+                println("Type text message: ")
+                textMessage = readln()
+                smartPhone.sendTextMessage(textMessage)
+            } else if (option == 6) { // Call a Friend
+                if (smartPhone.load == 0.0) {
+                    println("Check operator services!")
+                } else {
+                    print("Total minutes called: ")
+                    smartPhone.call(readln().toInt())
+                }
+            } else if (option == 0) { // Exit System
+                println("---Exiting System---")
+            } else {
+                println("Invalid Option!")
+            }
+        }
+
     }
 }
-//create a class called SmartPhone
-class SmartPhone {
 
-    var creditbalance = 0
-    var spPercentageOfBattery: Int = 100
-    var creditamount: Double = readln().toDouble()
-    var dialNumber: Double = readln().toDouble()
+class SmartPhone(var load : Double, var batteryPercentage: Int) {
 
     init {
-        println("Smart Phone System")
+        println("--Ghenio's Store--")
+        println("Initial value of load is $load and battery percentage is $batteryPercentage%")
+    }
+
+    fun buyLoad(amount: Int) { // Does not accept 0 or negative values
+        if (amount <= 0) {
+            println("Invalid value!")
+        } else {
+            load += amount
+            println("Load successful!")
+        }
+    }
+
+    fun chargeBattery(batteryPercentage: Int) { // Does not accept 0 or negative values, should not exceed 100%
+        if (batteryPercentage <= 0) {
+            println("Invalid battery charging!")
+        } else {
+            this.batteryPercentage += batteryPercentage
+            println("Battery charged!")
+        }
+    }
+
+
+    fun sendTextMessage(message: String) { // Display sent message
+        if(load == 0.0)
+            println("Check operator services!")
+        else
+            println("Text message: \"$message\" sent successfully!")
+        batteryPercentage--
+        load--
+        if(load < 0) {
+            load = 0.0
+        }
+    }
+
+    fun checkBalance() { // Display current load, if zero, display "Check operator services"
+        if (load == 0.0)
+            println("Check operator services!")
+        else
+            println("Your load is $load")
 
     }
-    fun BalanceCredit() {//does not accept 0 or negative values
-        print("Enter an amount you want to load:")
-        var creditamount: Double = readln().toDouble()
-        if (creditamount <= 0) {
-            println("Invalid amount")
-            ReturnCredit()
-        }
-        val totalcredit = creditbalance + creditamount
-        println("Your Balance is now: $totalcredit")
-    }
-    fun ChargeBattery() {//does not accept 0, negative values or should not exceed 100%
-        var spPercentageOfBattery: Int = 100
-        if (spPercentageOfBattery <= 20 && (spPercentageOfBattery >= 1)){
-            println("You are Running Low Battery")
-        }
-        else if (spPercentageOfBattery <= 0) {
-            println("invalid input: $spPercentageOfBattery")
-        }
-        else if (spPercentageOfBattery > 100) {
-            println("INVALID input: $spPercentageOfBattery")
-        }
-        else{
-            println("Your Battery is $spPercentageOfBattery%")
-        }
-    }
-    fun ReturnCredit() {//display current load, if zero, display "Check Operator Services"
-        if (creditbalance == 0){
-            println("Check Operator Services")
-        }
-        else {
-            println("Your Remaining Balance is $creditbalance Pesos")
-        }
-    }
-    fun Call() {//8 load per minute, will not push through if no sufficient load
-        print("Dial the phone number:")
-        var dialNumber: Double
-        readln().toDouble()
 
-        if (creditbalance <= 7 && (creditbalance >= 0)) {
-            println("Insufficient Load")
-            println("Call Disconnected")
-            println("Your Remaining Balance: $creditbalance Pesos")
+    fun call(minutes: Int) {// 8 load per minute, will not push through if no sufficient load
+        var totalCalls : Int = minutes * 8
+        if (totalCalls > load) {
+            println("Insufficient fund to make a call!")
+        } else {
+            batteryPercentage -= 2
+            load -= (minutes * 8)
+                    println("Thank you for using our service!")
         }
-        else if (creditbalance < 0) {
-            println("invalid")
-        }
-        else if (creditbalance >= 8) {
-            println("Call Connected")
-            print("Call Minutes:")
-            var callminutes: Int = readln().toInt()
-            var remainingcredit = callminutes * 8
-            var creditbalance = creditbalance - remainingcredit
-            println("Your Remaining Balance is $creditbalance Pesos")
-        }
+    }
+}
+
+fun String.checkIntOrString(): Any {
+    var v = toIntOrNull()
+    return when(v) {
+        null -> "false"
+        else -> "true"
     }
 }
