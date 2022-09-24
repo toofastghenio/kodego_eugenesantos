@@ -61,7 +61,6 @@ fun main() {
 
     }
 
-
 }
 
 class ComputeDiscount() {
@@ -97,6 +96,7 @@ class ComputeDiscount() {
             net = 0.0
         }
 
+        println("You have a $discountPercentage of ${String.format("%,.2f", discount)}, so your net pay is ${String.format("%,.2f", net)}")
         return discountPercentage
 
     }

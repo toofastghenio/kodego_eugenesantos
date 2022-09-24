@@ -9,28 +9,28 @@ class ComputeDiscountTest {
 
     // (1) 0=> <=10000  is entered, it will return 0
     @Test
-    fun priceGreaterThanOrEqualToZeroLessThanOrEqualToTenThousand() {
+    fun priceGreaterThanOrEqualZeroLessThanOrEqualTenThousand() {
         var discountedPrice = ComputeDiscount()
-        assertEquals("0%",discountedPrice.getPrice(10000.0))
+        assertEquals("0%",discountedPrice.getPrice(9999.0))
     }
 
     // (2) 10001=>price<=20000  is entered, it will return 5% discount price
     @Test
-    fun priceGreaterThanTenThousandOneLessThanTwentyThousand() {
+    fun priceGreaterThanOrEqualTenThousandOneLessThanOrEqualTwentyThousand() {
         var discountedPrice = ComputeDiscount()
         assertEquals("5%",discountedPrice.getPrice(10001.0))
     }
 
     // (3) 20001=>price<=50000  is entered, it will return 10% discount price
     @Test
-    fun priceGreaterThanTwentyThousandOneLessThanFiftyThousand() {
+    fun priceGreaterThanOrEqualTwentyThousandOneLessThanOrEqualFiftyThousand() {
         var discountedPrice = ComputeDiscount()
         assertEquals("10%",discountedPrice.getPrice(20001.0))
     }
 
     // (4) 50001=>price<=100000  is entered, it will return 15% discount price
     @Test
-    fun priceGreaterThanFiftyThousandOneLessThanOneHundredThousand() {
+    fun priceGreaterThanOrEqualFiftyThousandOneLessThanOrEqualOneHundredThousand() {
         var discountedPrice = ComputeDiscount()
         assertEquals("15%",discountedPrice.getPrice(50001.0))
     }
