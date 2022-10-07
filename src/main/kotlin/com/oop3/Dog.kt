@@ -1,4 +1,7 @@
-package com.oop3
-
-class Dog {
-}
+//package com.oop3
+//
+//class Dog:Mammal(),Animal,Pet {
+//    override fun walk(){
+//
+//    }
+//}
