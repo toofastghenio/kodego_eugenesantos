@@ -1,2 +1,4 @@
 package Exercises
 
+class Products {
+}
