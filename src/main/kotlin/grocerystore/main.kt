@@ -1,24 +1,23 @@
 package grocerystore
 
+import java.lang.IndexOutOfBoundsException
+
 fun main() {
     var groceryStuff = Groceries()
     print("*-*-*-*-*-*EUGENE'S ONLINE GROCERY*-*-*-*-*\n")
     while (true) {
         print(
-                    "[1]:Add Product\n" +
+            "[1]:Add Product\n" +
                     "[2]:Proceed to Inventory\n" +
                     "[3]:Quit\n" +
                     "Choose: \n"
         )
         try {
-            var choose1 = readln()
+            var choose : Int = readln().toInt() // Changed from general value to int value
             // Check input and compare to conditions
-            if (choose1.length > 1) {
-                //select .length control input
-                throw Exception()
-            } else if (choose1.toInt() == 1) {
+            if (choose == 1) { // Removed all to.int to all choose variable
                 println("*-*ADD PRODUCT*-*")
-                println("[1]:Confectionary[2]:Snacks[3]:Frozen Goods")
+                println("[1]:Confectionary [2]:Snacks [3]:Frozen Goods")
                 print("Choose Classification:")
                 var figure = readln().toInt()
                 if (figure == 1) {
@@ -63,10 +62,10 @@ fun main() {
                 } else println("Incorrect Figure!")
                 break
                 // inventory
-            } else if (choose1.toInt() == 2) {
+            } else if (choose == 2) {
                 groceryStuff.listOfProducts()
                 //Quit
-            } else if (choose1.toInt() == 3) {
+            } else if (choose == 3) {
                 println("Quit")
                 break
             } else {
@@ -74,9 +73,10 @@ fun main() {
             }
             groceryStuff.announcement()
             groceryStuff.details()
-        } catch (e: Exception) {
+        } catch (e: NumberFormatException) { // Changed from Exception to NumberFormatException
             println("Incorrect Figures")
-        } catch (e: ArrayIndexOutOfBoundsException) {
+        } catch (e: IndexOutOfBoundsException) { // Changed from ArrayOutOfBoundsException to IndexOutOfBoundsException
             println("Incorrect Figures")
         }
-    }   }
+    }
+}
