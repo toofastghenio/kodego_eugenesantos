@@ -1,121 +1,49 @@
 package Exercises
-
+//Activity 03 - A
+//Add try-catch to Activity 01 - D, Activity 01 - E, Activity 01 - F
 fun main() {
-    println()
-    var studentNumber: Int = 0
-    var studentName1: String = ""
-    var age1: Int = 0
-    var sex1: String = ""
-    var address1: String = ""
-    var isEnrolled1: String = ""
-    var section1: String = ""
-    var emailAddress1: String = ""
-    var mobileNumber1: Long = 0
-    var currentScore1: Double = 0.0
-    //current score not automatically computed
+    var amount: Double = 0.00
+    var condition: Boolean = true
 
-    do {
-        try {
-            println("Enter Student Number:")
-            studentNumber = readln().toInt()
-            break
-        } catch (e: NumberFormatException) {
-            println(e)
-            println("Invalid input. Try again.")
-            println()
+    try {
+        print("Input the desire amount: ")
+        amount = readln().toDouble()
+
+        while (condition) {
+            print("Do you wish to input another desire amount? ")
+            var answer: String = readln().lowercase()
+
+            if (answer == "yes") {
+                print("Enter new desire amount: ")
+                var newamount: Double = readln().toDouble()
+                amount = amount + newamount
+
+                println("The Total Desire Amount is $amount")
+                println()
+
+            } else if (answer != "no") {
+                println("Please answer with yes or no only")
+                println()
+
+            } else if (answer == "no") {
+                print("The Total Desire Amount is $amount")
+                println()
+
+                println("Do you wish to Divide the Total Amount by how many? ")
+                var divisor: Int = readln().toInt()
+
+                var totalDesireAmount: Double = amount / divisor
+                println("Total :  $totalDesireAmount")
+
+
+                println()
+                println("Spend Wisely on your Withdrawal")
+                break
+            }
+
         }
-    } while (true)
+    } catch (e: Exception) {
+        println("Please enter a valid amount!")
 
-
-    println("Enter Full Name:")
-    studentName1 = readln()
-
-    do{
-        try {
-            println("Enter Age:")
-            age1 = readln().toInt()
-            break
-        } catch (e: NumberFormatException) {
-            println(e)
-            println("Invalid input. Try again.")
-            println()
-        }
-    }while (true)
-
-    println("Enter Sex:")
-    sex1 = readln()
-
-    println("Enter Address:")
-    address1 = readln()
-
-    println("Is this person enrolled?:")
-    isEnrolled1 = readln()
-
-    println("Section Name:")
-    section1 = readln()
-
-    println("Email Address:")
-    emailAddress1 = readln()
-
-    do{
-        try {
-            println("Mobile Number:")
-            mobileNumber1 = readln().toLong()
-            break
-        } catch (e: NumberFormatException) {
-            println(e)
-            println("Invalid input. Try again.")
-            println()
-        }
-    }while(true)
-
-    do{
-        try {
-            println("Current Score:")
-            currentScore1 = readln().toDouble()
-            break
-        } catch (e: Exception) {
-            println(e)
-            println("Invalid input. Try again.")
-            println()
-        }
-    }while (true)
-
-    println("Student Number: $studentNumber")
-    println("Student Name: $studentName1")
-    println("Age: $age1")
-    println("Sex: $sex1")
-    println("Address: $address1")
-    println("Is Enrolled?: $isEnrolled1")
-    println("Section Name: $section1")
-    println("Email Address?: $emailAddress1")
-    println("Mobile Number: $mobileNumber1")
-    println("Current Score: $currentScore1")
-
-
-
-    println()
-
-//    var studentNumber2: Int = 2022002
-//    var studentName2: String = "Susan dela Cruz"
-//    var age2: Int = 40
-//    var sex2: String = "Female"
-//    var address2: String = "Quezon City"
-//    var isEnrolled2: Boolean = false
-//    var section2: Char = 'B'
-//    var emailAddress2: String = "s.delacruz@gmail.com"
-//    var mobileNumber2: Long = 639208889999
-//    var currentScore2: Double = 98.00
-//
-//    println("Student Number: $studentNumber2")
-//    println("Student Name: $studentName2")
-//    println("Age: $age2")
-//    println("Sex: $sex2")
-//    println("Address: $address2")
-//    println("Is Enrolled?: $isEnrolled2")
-//    println("Section Name: $section2")
-//    println("Email Address?: $emailAddress2")
-//    println("Mobile Number: $mobileNumber2")
-//    println("Current Score: $currentScore2")
-
+    }
 }

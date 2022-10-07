@@ -1,4 +1,4 @@
-//fun main(){
+package com.kotlin.program//fun main(){
 //    var joe = Person("Joe",21)
 //    joe.name = "Joe"
 //    println(joe.name)

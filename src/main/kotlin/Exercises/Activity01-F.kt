@@ -1,5 +1,5 @@
 package Exercises
-// Implement Activity 02 - C using Classes.
+
 fun main() {
     println("please choose from the options")
     println("[1} palindrome checker")
