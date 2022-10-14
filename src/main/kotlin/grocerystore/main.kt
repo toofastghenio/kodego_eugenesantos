@@ -13,9 +13,9 @@ fun main() {
                     "Choose: \n"
         )
         try {
-            var choose : Int = readln().toInt() // Changed from general value to int value
-            // Check input and compare to conditions
-            if (choose == 1) { // Removed all to.int to all choose variable
+            var choose : Int = readln().toInt()
+
+            if (choose == 1) {
                 println("*-*ADD PRODUCT*-*")
                 println("[1]:Confectionary [2]:Snacks [3]:Frozen Goods")
                 print("Choose Classification:")
@@ -73,9 +73,9 @@ fun main() {
             }
             groceryStuff.announcement()
             groceryStuff.details()
-        } catch (e: NumberFormatException) { // Changed from Exception to NumberFormatException
+        } catch (e: NumberFormatException) {
             println("Incorrect Figures")
-        } catch (e: IndexOutOfBoundsException) { // Changed from ArrayOutOfBoundsException to IndexOutOfBoundsException
+        } catch (e: IndexOutOfBoundsException) {
             println("Incorrect Figures")
         }
     }

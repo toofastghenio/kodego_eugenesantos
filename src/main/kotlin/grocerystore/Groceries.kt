@@ -1,6 +1,6 @@
 package grocerystore
 
-class Groceries:Details,Announcement() {
+class Groceries: Details(),Announcements {
     var product1 = arrayListOf<String>("SUGAR", "CHOCOLATES", "CANDIES")
     var product2 = arrayListOf<String>("CHIPS", "POPCORN", "COOKIES")
     var product3 = arrayListOf<String>("FROZEN PORK", "FROZEN CHICKEN", "FROZEN BEEF")
@@ -34,29 +34,33 @@ class Groceries:Details,Announcement() {
         var counter = 0
         println("*-*-*Confectionary*-*-*")
         for (i in product1) {
-            println("Product: $i\n Price: ${(price1[counter])}\nSupplies: ${supplies1[counter]}") // Moved back Supplies 1 space to remove spacing during run time
+            println("Product: $i\n Price: ${(price1[counter])}\nSupplies: ${supplies1[counter]}")
             counter++
         }
         println("*-*-*")
         var counter1 = 0
         println("*-*-*Snacks*-*-*")
         for (i in product2) {
-            println("Product: $i\nPrice: ${(price2[counter1])}\nSupplies: ${supplies2[counter1]}") // Change counter to counter1
+            println("Product: $i\nPrice: ${(price2[counter1])}\nSupplies: ${supplies2[counter1]}")
             counter1++
         }
         println("*-*-*")
         var counter2 = 0
         println("*-*-*FrozenGoods*-*-*")
-        for (i in product3) { // Missing {
+        for (i in product3) {
 
-            println("Product: $i\nPrice: ${(price3[counter2])}\nSupplies: ${supplies3[counter2]}")  // Change counter to counter2
-            counter2++ // Change counter to counter2
+            println("Product: $i\nPrice: ${(price3[counter2])}\nSupplies: ${supplies3[counter2]}")
+            counter2++
             println("*-*-*")
-        } // Missing }
+        }
     }
 
-    override fun announcement() {
+    fun announcement() {
         println("Thank you for trusting us")
+    }
+
+    override fun details() {
+        TODO("Not yet implemented")
     }
 
 }

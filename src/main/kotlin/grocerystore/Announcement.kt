@@ -1,5 +1,5 @@
 package grocerystore
 
-abstract class Announcement{
-    abstract fun announcement()
+abstract class Details{
+    abstract fun details()
 }
