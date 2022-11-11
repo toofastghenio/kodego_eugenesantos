@@ -1,7 +1,7 @@
 package com.CaseStudy
 
 fun main(){
-    var admin = Admins()
+    var admin = Administrators()
     var coordinators = Coordinators()
     var deans = Deans()
     var studentOnline = StudentOnline()

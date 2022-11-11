@@ -1,6 +1,6 @@
 package com.CaseStudy
 
-class Admins:Person(),Others {
+class Administrators:Person(),Others {
     init {
         println("*-*-*Administrator*-*-*")
     }

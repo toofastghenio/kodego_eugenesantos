@@ -4,7 +4,7 @@ open class Students:Person(),Others {
     init {
         println("*-*-*Students*-*-*")
     }
-    fun course (course:String){
-        println("Course is $course")
+    fun curriculums (curriculums:String){
+        println("Curriculums are $curriculums")
     }
 }

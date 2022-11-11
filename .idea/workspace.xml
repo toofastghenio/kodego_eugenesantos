@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0a17570-e8e7-4599-9b9a-c6c00a08338b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram12.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-A.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-B.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-C.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-D.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-E.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-F.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-G.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-H.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-I.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-J.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity02-A.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity02-B.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity02-C.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity02-D.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity03-A.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity03-B.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity03-C.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity04-A.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity04-B.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity04-C.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kodego_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kodego_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Admins.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Admins.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Fulltime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Fulltime.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Others.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Others.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/PartTime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/PartTime.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/StudentF2F.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/StudentF2F.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/StudentOnline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/StudentOnline.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Students.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Students.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,57 +74,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Kodego Projects/Kodego_Project/src/main/kotlin/practiceActivity/practiceactivity1.kt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/StudentAssistanceApp" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Kodego Projects\Kodego_Project\src\main\kotlin\Exercises" />
+      <recent name="D:\Kodego Projects\Kodego_Project\src\main\kotlin\practiceActivity" />
+      <recent name="D:\Kodego Projects\Kodego_Project\src\main\kotlin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Kodego Projects\Kodego_Project\src\main\kotlin" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="grocerystore" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Exercises" />
+      <recent name="practiceActivity" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KotlinProgram12Kt">
-    <configuration name="KotlinProgram11Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinProgram11Kt" />
+  <component name="RunManager">
+    <configuration name="ComputeDiscountTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kodego_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_activities" />
+      <option name="MAIN_CLASS_NAME" value="practice_activities.ComputeDiscountTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KotlinProgram12Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinProgram12Kt" />
+    <configuration name="ComputeDiscountTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kodego_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_activities" />
+      <option name="MAIN_CLASS_NAME" value="practice_activities.ComputeDiscountTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KotlinProgram7Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinProgram7Kt" />
+    <configuration name="ComputeDiscountTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kodego_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_activities" />
+      <option name="MAIN_CLASS_NAME" value="practice_activities.ComputeDiscountTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KotlinProgram8Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinProgram8Kt" />
+    <configuration name="ComputeDiscountTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kodego_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_activities" />
+      <option name="MAIN_CLASS_NAME" value="practice_activities.ComputeDiscountTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KotlinProgram9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinProgram9Kt" />
+    <configuration name="Activity03_BKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.Activity03_BKt" />
       <module name="Kodego_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.KotlinProgram12Kt" />
-        <item itemvalue="Kotlin.KotlinProgram11Kt" />
-        <item itemvalue="Kotlin.KotlinProgram9Kt" />
-        <item itemvalue="Kotlin.KotlinProgram8Kt" />
-        <item itemvalue="Kotlin.KotlinProgram7Kt" />
+        <item itemvalue="JUnit.ComputeDiscountTest (1)" />
+        <item itemvalue="Kotlin.Activity03_BKt" />
+        <item itemvalue="JUnit.ComputeDiscountTest (5)" />
+        <item itemvalue="JUnit.ComputeDiscountTest (4)" />
+        <item itemvalue="JUnit.ComputeDiscountTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -132,5 +209,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kodego_Project$KotlinProgram8Kt.ic" NAME="KotlinProgram8Kt Coverage Results" MODIFIED="1662378903571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Kodego_Project$Activity01_CKt.ic" NAME="Activity01_CKt Coverage Results" MODIFIED="1662376447032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Kodego_Project$Activity01_GKt.ic" NAME="Activity01_GKt Coverage Results" MODIFIED="1662722789599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Kodego_Project$KotlinProgram23Kt.ic" NAME="KotlinProgram23Kt Coverage Results" MODIFIED="1662791951824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Kodego_Project$Activity01_FnumberKt.ic" NAME="Activity01_FnumberKt Coverage Results" MODIFIED="1663078612386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Kodego_Project$KotlinProgram13Kt.ic" NAME="KotlinProgram13Kt Coverage Results" MODIFIED="1662551078212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

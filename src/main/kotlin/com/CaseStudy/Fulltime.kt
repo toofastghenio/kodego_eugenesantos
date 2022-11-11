@@ -2,6 +2,6 @@ package com.CaseStudy
 
 class Fulltime: Teachers(), Others {
     init {
-        println("*-*-*FullTime*-*-*")
+        println("*-*-*FullTime Teachers*-*-*")
     }
 }
