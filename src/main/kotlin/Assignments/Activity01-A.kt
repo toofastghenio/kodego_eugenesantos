@@ -51,7 +51,7 @@ fun main() {
     var currentGrade3: Double = 3.00
 
     println()
-    var studentFullName4: String = "Vic Sotto"
+    var studentFullName4: String = "Marvic Sotto"
     var studentIdNumber4: Long = 2000237890
     var course4: String = "BS Mathematics"
     var section4: String = "D234"

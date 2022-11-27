@@ -101,7 +101,7 @@ fun main(){
         println("Book Available : $bookavailability5")
     }
 println("*************************")
-println("**********END**********")
+println("**********E N D**********")
 
 }
 
