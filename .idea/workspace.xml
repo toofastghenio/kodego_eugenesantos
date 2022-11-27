@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0a17570-e8e7-4599-9b9a-c6c00a08338b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-D.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-E.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-F.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-G.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-H.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-I.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity01-J.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity02-A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity02-B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity02-C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity02-D.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity03-A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity03-B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity03-C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity04-A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity04-B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Assignments/Activity04-C.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kodego_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kodego_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Admins.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Admins.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Fulltime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Fulltime.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Others.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Others.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/PartTime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/PartTime.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Person.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/StudentF2F.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/StudentF2F.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/StudentOnline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/StudentOnline.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Students.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/Students.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/CaseStudy/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +68,7 @@
       <recent name="practiceActivity" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ComputeDiscountTest (1)">
     <configuration name="ComputeDiscountTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kodego_Project" />
       <extension name="coverage">
